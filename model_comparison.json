@@ -1,0 +1,110 @@
+{
+  "Linear Regression": {
+    "R2": 0.7467,
+    "Adjusted_R2": 0.7442,
+    "MAE": 120142.12,
+    "RMSE": 190034.0,
+    "CV_R2_mean": 0.7667,
+    "CV_R2_std": 0.0192,
+    "Train_time_sec": 0.03
+  },
+  "Ridge Regression": {
+    "R2": 0.7473,
+    "Adjusted_R2": 0.7448,
+    "MAE": 119936.35,
+    "RMSE": 189799.43,
+    "CV_R2_mean": 0.7666,
+    "CV_R2_std": 0.0192,
+    "Train_time_sec": 0.02
+  },
+  "Lasso Regression": {
+    "R2": 0.7397,
+    "Adjusted_R2": 0.7371,
+    "MAE": 121649.74,
+    "RMSE": 192641.54,
+    "CV_R2_mean": 0.7649,
+    "CV_R2_std": 0.02,
+    "Train_time_sec": 0.02
+  },
+  "Polynomial Regression (deg2)": {
+    "R2": 0.7865,
+    "Adjusted_R2": 0.7844,
+    "MAE": 112609.69,
+    "RMSE": 174448.81,
+    "CV_R2_mean": 0.772,
+    "CV_R2_std": 0.0246,
+    "Train_time_sec": 0.12
+  },
+  "Decision Tree": {
+    "R2": 0.5473,
+    "Adjusted_R2": 0.5428,
+    "MAE": 137047.96,
+    "RMSE": 254048.27,
+    "CV_R2_mean": 0.6932,
+    "CV_R2_std": 0.0246,
+    "Train_time_sec": 0.03
+  },
+  "Random Forest": {
+    "R2": 0.7045,
+    "Adjusted_R2": 0.7016,
+    "MAE": 118858.37,
+    "RMSE": 205242.91,
+    "CV_R2_mean": 0.7614,
+    "CV_R2_std": 0.0249,
+    "Train_time_sec": 5.43
+  },
+  "Gradient Boosting": {
+    "R2": 0.7369,
+    "Adjusted_R2": 0.7343,
+    "MAE": 118092.99,
+    "RMSE": 193671.93,
+    "CV_R2_mean": 0.7791,
+    "CV_R2_std": 0.0163,
+    "Train_time_sec": 0.64
+  },
+  "XGBoost": {
+    "R2": 0.7506,
+    "Adjusted_R2": 0.748,
+    "MAE": 115762.85,
+    "RMSE": 188581.77,
+    "CV_R2_mean": 0.7842,
+    "CV_R2_std": 0.017,
+    "Train_time_sec": 0.16
+  },
+  "LightGBM": {
+    "R2": 0.7379,
+    "Adjusted_R2": 0.7353,
+    "MAE": 118402.51,
+    "RMSE": 193305.94,
+    "CV_R2_mean": 0.7639,
+    "CV_R2_std": 0.0171,
+    "Train_time_sec": 0.16
+  },
+  "SVR (RBF)": {
+    "R2": 0.7782,
+    "Adjusted_R2": 0.776,
+    "MAE": 114498.59,
+    "RMSE": 177829.8,
+    "CV_R2_mean": 0.7666,
+    "CV_R2_std": 0.0169,
+    "Train_time_sec": 0.86
+  },
+  "KNN Regressor": {
+    "R2": 0.7177,
+    "Adjusted_R2": 0.7148,
+    "MAE": 118600.77,
+    "RMSE": 200635.36,
+    "CV_R2_mean": 0.7398,
+    "CV_R2_std": 0.016,
+    "Train_time_sec": 0.02
+  },
+  "Neural Net (MLP)": {
+    "R2": 0.7778,
+    "Adjusted_R2": 0.7756,
+    "MAE": 116059.24,
+    "RMSE": 177969.88,
+    "CV_R2_mean": 0.7622,
+    "CV_R2_std": 0.0204,
+    "Train_time_sec": 2.08
+  }
+}
