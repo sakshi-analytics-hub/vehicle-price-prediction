@@ -1,5 +1,9 @@
 # 🚗 Used Vehicle Resale Price Prediction with Depreciation Analysis
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://vehicle-price-prediction-ml3.streamlit.app/)
+
+**🔗 Live Demo:** [https://vehicle-price-prediction-ml3.streamlit.app/](https://vehicle-price-prediction-ml3.streamlit.app/)
+
 An end-to-end regression machine learning project that predicts the resale price of used
 cars and visualizes **how predicted price depreciates with age and mileage** — instead of
 just returning a single point estimate like most similar projects.
@@ -100,12 +104,17 @@ generalizes most consistently even though its single test-split R² is slightly 
 
 ## ▶️ How to Run
 
-### 1. Install dependencies
+### Try it live
+No install needed — use the hosted app: **[vehicle-price-prediction-ml3.streamlit.app](https://vehicle-price-prediction-ml3.streamlit.app/)**
+
+### Or run locally
+
+#### 1. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Run the pipeline (only needed if you want to retrain from scratch)
+#### 2. Run the pipeline (only needed if you want to retrain from scratch)
 ```bash
 python src/eda_preprocessing.py     # cleans data, saves EDA plots
 python src/train_models.py          # trains & compares all 12 models
@@ -113,7 +122,7 @@ python src/depreciation_analysis.py # generates depreciation curve plots
 ```
 This regenerates everything in `reports/` and `models/`.
 
-### 3. Launch the app
+#### 3. Launch the app
 ```bash
 streamlit run app.py
 ```
@@ -126,13 +135,18 @@ Opens at `http://localhost:8501` with three tabs:
 
 ## ☁️ Deployment
 
-### Option A — Streamlit Community Cloud (recommended, free)
+### Currently deployed on Streamlit Community Cloud
+🔗 **Live app:** [https://vehicle-price-prediction-ml3.streamlit.app/](https://vehicle-price-prediction-ml3.streamlit.app/)
+
+### Deploy your own copy
+
+#### Option A — Streamlit Community Cloud (recommended, free)
 1. Push this folder to a public GitHub repo
 2. Go to [share.streamlit.io](https://share.streamlit.io) → "New app"
 3. Point it to your repo, branch, and `app.py`
 4. Deploy — you'll get a public URL in ~2 minutes
 
-### Option B — Hugging Face Spaces
+#### Option B — Hugging Face Spaces
 1. Create a new Space → SDK: Streamlit
 2. Upload this folder's contents (including `models/` and `reports/`)
 3. Space auto-builds and deploys
